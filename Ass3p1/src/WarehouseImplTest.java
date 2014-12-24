@@ -23,6 +23,7 @@ public class WarehouseImplTest {
 	public void testaddException() throws Exception {
 		test.add(true, "Hammer",-1);
 		test.add(false,"Nail",-10);
+		System.out.println("bdika");
 	}
 
 	@Test
